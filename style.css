@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Marmelad&display=swap');
+
+body{
+	font-family: marmelad, comfortaa;
+  margin: 0;
+}
+
+header {
+  display: block;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.header-menu {
+  display: flex;
+  flex: 1 0 auto;
+  background-color: #B38740;
+  margin: 0;
+  padding: 0.5em 0;
+  justify-content: space-around;
+}
+
+.header-menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-menu li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fafafa;
+}
+
+.header-menu li:hover a {
+  text-decoration: underline;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-elevent {
+  display: flex;
+  flex: 1 0 auto;
+  height: 15rem;
+  width: 100%;
+}
+
+.gallery-elevent a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.cover {
+  height: 100%;
+  background-size: cover;
+  filter: grayscale(1);
+  transition: filter 0.5s;
+}
+
+.cover:hover {
+ filter: grayscale(0); 
+}
+
+.cover span {
+  height: 100%;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s;
+  color: #fafafa;
+  font-size: 3rem;
+}
+
+.cover:hover span {
+  opacity: 0;
+}
+
+article {
+  padding: 2rem;
+}
+
+article img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
